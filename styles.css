@@ -1,0 +1,528 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+
+.navbar{    
+    height: 75px;
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.logo{
+    display: flex;
+    height: 75px;
+    width: 300px;
+    margin:0;
+}
+@import url('https://fonts.googleapis.com/css?family=Konkhmer Sleokchher');
+.title{
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    font-family: 'Konkhmer Sleokchher';
+    font-weight: normal;
+    letter-spacing: .15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    padding: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.img-logo{
+    height: 40px;
+    width: 40px;
+    z-index: 3;
+    margin-top:18px;
+    margin-left: 15px;
+}
+
+.tools{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.tool{
+    color: white;
+    font-size: 25px;
+    margin-left: 60px;
+    font-family: 'Acme';
+}
+
+.welcome{
+    padding-top: 75px;
+    position: relative;
+    height: 850px;
+    width: 100%;
+    z-index: -1;
+}
+.tree{
+    object-fit: fill;
+    height: auto;
+    width: 100%;  
+}
+
+.img-div{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 500px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Atma');
+.img-text{
+    color: black;
+    font-size: 100px;
+    font-family: 'Atma';
+}
+
+.intro-page{
+    height: 600px;
+    width: 900px;
+    background-color: #ACBFA4;
+    margin-top: 50px;
+    margin-left: 19.85%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.first-para{
+    display: flex;
+    margin-left: 20px;
+}
+
+.sitting-img{
+    height: 450px;
+    width: 800px;
+    margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anek Tamil');
+.sitting-para{
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: 'Anek Tamil';
+    color: white;
+}
+
+.second-line{
+    font-size: 25px;
+    font-family: 'Anek Tamil';
+    color: white;
+    margin-left: 20px;
+
+}
+
+.test-para{
+    width: 900px;
+    height: 920px;
+    margin-left: 19.85%;
+    background-color: #E2E8CE;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.test-line1{
+    font-size: 25px;
+    font-family: 'Anek Tamil';
+    color: black;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.test-img-para{
+    display: flex;
+}
+
+.test-img{
+    height: 400px;
+    width: 500px;
+    margin-right: 25px;
+}
+
+.test-line2{
+    font-family: 'Anek Tamil';
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.test-line3{
+    font-size: 25px;
+    font-family: 'Anek Tamil';
+    color: black;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Bricolage Grotesque' );
+#test-page{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FF1B1C;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Bricolage Grotesque';
+    border: none;
+    cursor: pointer;
+}
+
+.payment-para{
+    height: 900px;
+    width: 900px;
+    margin-left: 19.85%;
+    margin-top: 50px;
+    background-color: #C1EDCC;
+}
+
+.payment-logo{
+    display: flex;
+}
+
+.recommended{
+    height: 230px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.payment-header{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: 'Acme';
+}
+
+.payment-para1{
+    font-size: 25px;
+    font-family: 'Anek Tamil';
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.subcription-page{
+    font-size: 35px;
+    margin-left: 330px;
+    margin-top: 50px;
+    background-color: #00B4D8;
+    border-radius: 30px;
+    color: black;
+    font-family: 'Bricolage Grotesque';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    cursor: pointer;
+
+} */
+
+
+/* === FONT IMPORTS === */
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&display=swap');
+
+/* === BASE STYLES === */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+/* === NAVBAR === */
+.navbar {
+    height: 75px;
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+}
+
+.tools {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.tool {
+    color: white;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    margin-right: 20px;
+}
+
+/* === WELCOME SECTION === */
+.welcome {
+    padding-top: 75px;
+    position: relative;
+    width: 100%;
+}
+
+.tree {
+    width: 100%;
+    height: auto;
+}
+
+.img-div {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    max-width: 80%;
+}
+
+.img-text {
+    color: black;
+    font-size: 70px;
+    font-family: 'Atma', cursive;
+}
+
+/* === INTRO SECTION === */
+.intro-page {
+    max-width: 900px;
+    background-color: #ACBFA4;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+.first-para {
+    display: flex;
+    
+    gap: 20px;
+}
+
+.sitting-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sitting-para {
+    font-size: 20px;
+    color: white;
+}
+
+.second-line {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+/* === TEST SECTION === */
+.test-para {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #E2E8CE;
+    padding: 20px;
+}
+
+.test-line1,
+.test-line2,
+.test-line3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.test-img-para {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.test-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+#test-page {
+    font-size: 25px;
+    padding: 10px 30px;
+    background-color: #FF1B1C;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+}
+
+/* === PAYMENT SECTION === */
+.payment-para {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #C1EDCC;
+    padding: 20px;
+}
+
+.payment-logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recommended {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.payment-header {
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+}
+
+.payment-para1 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.subcription-page {
+    font-size: 25px;
+    background-color: #00B4D8;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+}
+
+/* === MEDIA QUERIES === */
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .tool {
+        font-size: 18px;
+    }
+
+    .tools{
+        margin-right: 40px;
+    }
+
+    .img-text {
+        font-size: 3rem;
+    }
+
+    .sitting-para,
+    .second-line,
+    .test-line1,
+    .test-line2,
+    .test-line3,
+    .payment-para1 {
+        font-size: 18px;
+    }
+
+    .payment-header {
+        font-size: 35px;
+    }
+
+    #test-page,
+    .subcription-page {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 60px;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+
+    .img-logo {
+        height: 30px;
+        width: 30px;
+        margin: 0;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .tools {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+        margin-right: 25px;
+
+    }
+
+    .tools a:nth-child(1),  /* Home */
+    .tools a:nth-child(2) { /* Test */
+        display: none;
+    }
+
+    .tool {
+        font-size: 18px;
+        margin: 0;
+    }
+    .first-para {
+        flex-wrap: wrap;
+    }
+    
+}

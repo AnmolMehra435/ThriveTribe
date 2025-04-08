@@ -1,0 +1,581 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+
+.navbar{    
+    height: 75px;
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.logo{
+    display: flex;
+    height: 75px;
+    width: 300px;
+    margin:0;
+}
+@import url('https://fonts.googleapis.com/css?family=Konkhmer Sleokchher');
+.title{
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    font-family: 'Konkhmer Sleokchher';
+    font-weight: normal;
+    letter-spacing: .15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    padding: 0;
+}
+
+.img-logo{
+    height: 40px;
+    width: 40px;
+    z-index: 3;
+    margin-top:18px;
+    margin-left: 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.tools{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.tool{
+    color: white;
+    font-size: 25px;
+    margin-left: 60px;
+    font-family: 'Acme';
+}
+
+.main-div{
+    width: 1440px;
+    height: 100%;
+    background-color: #69DDFF;
+    margin-left: 40px;
+    padding-top: 70px;
+    z-index: -1;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.heading{
+    font-size: 50px;
+    font-family: 'Acme';
+    letter-spacing: 1px;
+    margin-left: 550px;
+    margin-top: 30px;
+    font-weight: normal
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anek Tamil');
+.header-line{
+    font-family: 'Anek Tamil';
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: -20px;
+}
+
+.container{
+    height: 100%;
+    width: 1300px;
+    background-color: #DBBADD;
+    margin-left: 70px;
+    margin-top: 40px;
+    padding-top: 2px;
+    margin-bottom: 50px;
+}
+
+.ques-container{
+    height: 420px;
+    width: 1200px;
+    background-color: #BE92A2;
+    margin-left: 50px;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.numeric{
+    font-size: 30px;
+    color: black;
+    font-family: 'Anek Tamil';
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.ques{
+    font-size: 30px;
+    color: black;
+    font-family: 'Anek Tamil';
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.option-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.options{
+    font-size: 27px;
+    font-family: 'Anek Tamil';
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.first{
+    margin-top: 0;
+}
+
+input{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.large{
+    height: 470px;
+}
+
+.largest{
+    height: 510px;
+}
+
+.long{
+    margin-right: 10px;
+}
+
+.sub{
+    font-size: 30px;
+    font-family: 'Anek Tamil';
+    background-color: #FD6C6E;
+    border-radius: 20px;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 530px;
+    margin-top: 80px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+    display:inline-block;
+}
+
+.result{
+    height: 440px;
+    width: 1200px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    background-color: #DBBADD;
+  
+    
+}
+
+.appreciation{
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Tamil';
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 0;
+    margin-right: 50px;
+}
+
+.sugesst{
+    margin-top: 10px;
+
+}
+
+.pre{
+    margin-top: 40px;
+    margin-left: 480px;
+ 
+}
+
+.category1{
+    display: none;
+}
+.category2{
+    display: none;
+}
+.category3{
+    display: none;
+}
+
+.final-score{
+    display: none;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Konkhmer Sleokchher' ;
+    color: black;
+    letter-spacing: 1px;
+} */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 28px;
+    font-family: 'Konkhmer Sleokchher';
+    margin-left: 10px;
+    font-weight: normal;
+    letter-spacing: 0.15px;
+}
+
+.img-logo {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.tools {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.tool {
+    color: white;
+    font-size: 18px;
+    font-family: 'Acme';
+    margin-right: 20px;
+}
+
+.main-div {
+    width: 100%;
+    background-color: #69DDFF;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.heading {
+    font-size: 36px;
+    font-family: 'Acme';
+    text-align: center;
+    margin: 20px auto 10px;
+    font-weight: normal;
+}
+
+.header-line {
+    font-family: 'Anek Tamil';
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #DBBADD;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ques-container {
+    background-color: #BE92A2;
+    border-radius: 25px;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.numeric,
+.ques {
+    font-size: 22px;
+    font-family: 'Anek Tamil';
+    margin-bottom: 10px;
+}
+
+.option-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.options {
+    font-size: 20px;
+    font-family: 'Anek Tamil';
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="radio"] {
+    height: 18px;
+    width: 18px;
+}
+
+.large {
+    min-height: 200px;
+}
+
+.largest {
+    min-height: 220px;
+}
+
+.sub {
+    font-size: 24px;
+    font-family: 'Anek Tamil';
+    background-color: #FD6C6E;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto;
+}
+
+.result {
+    background-color: #DBBADD;
+    margin-top: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.appreciation {
+    color: black;
+    font-size: 18px;
+    font-family: 'Anek Tamil';
+    margin: 10px 0;
+}
+
+.sugesst {
+    margin-left: 20px;
+}
+
+.pre {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category1,
+.category2,
+.category3 {
+    display: none;
+}
+
+.final-score {
+    display: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Konkhmer Sleokchher';
+    color: black;
+    margin-top: 30px;
+}
+
+/* Base styles (unchanged) */
+/* ... (your existing styles here) ... */
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .main-div {
+      width: 95%;
+      margin: 0 auto;
+      padding: 80px 10px 50px 10px;
+    }
+  
+    .container {
+      width: 100%;
+      margin: 20px auto;
+    }
+  
+    .ques-container,
+    .result {
+      width: 100%;
+      margin: 20px auto;
+      padding: 10px;
+    }
+  
+    .heading {
+      margin-left: 0;
+      text-align: center;
+      font-size: 40px;
+    }
+  
+    .header-line {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .sub {
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .pre {
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .final-score {
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0 15px;
+      height: 60px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logo {
+      height: 60px;
+      width: auto;
+      align-items: center;
+    }
+  
+    .title {
+      font-size: 20px;
+      margin-top: 0;
+      margin-left: 10px;
+      margin-top: 30px;
+    }
+  
+    .img-logo {
+      height: 35px;
+      width: 35px;
+      margin-top: 12px;
+      margin-left: 5px;
+    }
+  
+    .tools {
+      margin: 0;
+      margin-right: 30px;
+    }
+  
+    .tools a:nth-child(-n+2) {
+      display: none;
+    }
+  
+    .tool {
+      font-size: 18px;
+      margin-left: 0;
+    }
+  
+    .heading {
+      font-size: 30px;
+    }
+  
+    .header-line {
+      font-size: 16px;
+    }
+  
+    .ques {
+      font-size: 20px;
+    }
+  
+    .numeric {
+      font-size: 22px;
+    }
+  
+    .options {
+      font-size: 18px;
+    }
+  
+    .sub {
+      font-size: 20px;
+    }
+  
+    .appreciation {
+      font-size: 16px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .result {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 18px;
+    }
+  
+    .img-logo {
+      height: 30px;
+      width: 30px;
+      margin-top: 15px;
+    }
+  
+    .sub, .pre {
+      font-size: 18px;
+      padding: 8px 25px;
+    }
+  
+    .heading {
+      font-size: 24px;
+    }
+  
+    .header-line {
+      font-size: 14px;
+    }
+  
+    .ques, .numeric {
+      font-size: 18px;
+    }
+  
+    .options {
+      font-size: 16px;
+    }
+  
+    .final-score {
+      font-size: 22px;
+    }
+  }
+  

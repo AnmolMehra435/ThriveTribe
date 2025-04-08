@@ -1,0 +1,345 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+
+.navbar{    
+    height: 75px;
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.logo{
+    display: flex;
+    height: 75px;
+    width: 300px;
+    margin:0;
+}
+@import url('https://fonts.googleapis.com/css?family=Konkhmer Sleokchher');
+.title{
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    font-family: 'Konkhmer Sleokchher';
+    font-weight: normal;
+    letter-spacing: .15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    padding: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.img-logo{
+    height: 40px;
+    width: 40px;
+    z-index: 3;
+    margin-top:18px;
+    margin-left: 15px;
+}
+
+.tools{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.tool{
+    color: white;
+    font-size: 25px;
+    margin-left: 60px;
+    font-family: 'Acme';
+}
+
+.main-div{
+    height: 665px;
+    width: 100%;
+    padding-top: 70px;
+    background-color: #81C6EF;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abyssinica SIL');
+.header{
+   
+    letter-spacing: 1px;
+    font-size: 45px;
+    margin-left: 600px;
+    font-family: 'Abyssinica SIL'
+}
+
+.local{
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 100px;
+}
+
+.remote{
+    height: 400px;
+    width: 350px;
+    background-color: #EFD6AC;
+    margin-left: 200px;
+    border-radius: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Bricolage Grotesque' );
+.heading{
+    font-size: 35px;
+    font-family: 'Bricolage Grotesque';
+    margin-left: 130px;
+    margin-top: 0;
+    padding-top: 5px;
+
+}
+
+.pre{
+    margin-left: 85px;
+}
+
+.container{
+    background-color: #B7E1DD;
+    height: 260px;
+    width: 300px;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anek Tamil');
+.feature{
+    font-size: 25px;
+    font-family: 'Anek Tamil';
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.first{
+    padding-top: 15px;
+}
+
+
+.final{
+    font-size: 28px;
+    background-color: #FF640A;
+    border: none;
+    cursor: pointer;
+    font-family: 'Anek Tamil';
+    margin-left: 80px;
+    margin-top: 15px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+i{
+    font-size: 25px;
+    display: inline;
+    margin-left: 20px;
+    color: rgb(0, 226, 0);
+}
+
+span{
+    font-weight : bold;
+    font-size: 25px;
+    color : rgb(209, 73, 73);
+    margin-left: 20px;
+}
+
+.last{
+    margin-left: 5px;
+    
+}
+
+.last-second{
+    margin-left: 15px;
+}
+
+.last-icon{
+    margin-left: -5.35px;
+}
+
+.last-second-icon{
+    margin-left: 8px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1200px) {
+    .header {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .local {
+      position: static;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 50px;
+    }
+  
+    .remote {
+      margin: 20px 0;
+    }
+  
+    .container {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .feature {
+      font-size: 22px;
+    }
+  
+    .final {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .main-div{
+        height: 1295px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0 15px;
+      height: 60px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logo {
+      height: 60px;
+      width: auto;
+      align-items: center;
+    }
+  
+    .title {
+      font-size: 20px;
+      margin-top: 0;
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+  
+    .img-logo {
+      height: 35px;
+      width: 35px;
+      margin-top: 12px;
+      margin-left: 5px;
+    }
+  
+    .tools {
+      margin: 0;
+      margin-right: 40px;
+    }
+  
+    .tools a:nth-child(-n+2) {
+      display: none;
+    }
+  
+    .tool {
+      font-size: 18px;
+      margin-left: 0;
+    }
+  
+    .main-div {
+      height: auto;
+      padding-top: 80px;
+    }
+  
+    .remote {
+      width: 90%;
+      height: auto;
+    }
+  
+    .heading {
+      font-size: 28px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .pre {
+      margin-left: 0;
+    }
+  
+    .container {
+      width: 90%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .feature {
+      font-size: 20px;
+    }
+  
+    .final {
+      font-size: 22px;
+      padding: 10px 40px;
+      margin-bottom: 20px;
+    }
+  
+    i,
+    span {
+      font-size: 20px;
+    }
+  
+    .last {
+      margin-left: 40px;
+    }
+  
+    .last-second {
+      margin-left: 10px;
+    }
+  
+    .last-icon {
+      margin-left: 30px;
+    }
+  
+    .last-second-icon {
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 18px;
+    }
+  
+    .img-logo {
+      height: 30px;
+      width: 30px;
+      margin-top: 15px;
+    }
+  
+    .heading {
+      font-size: 24px;
+    }
+  
+    .feature {
+      font-size: 18px;
+    }
+  
+    .final {
+      font-size: 20px;
+      padding: 8px 35px;
+    }
+  
+    i,
+    span {
+      font-size: 18px;
+    }
+  }
+  

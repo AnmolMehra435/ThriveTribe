@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+
+.navbar{    
+    height: 75px;
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.logo{
+    display: flex;
+    height: 75px;
+    width: 300px;
+    margin:0;
+}
+@import url('https://fonts.googleapis.com/css?family=Konkhmer Sleokchher');
+.title{
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    font-family: 'Konkhmer Sleokchher';
+    font-weight: normal;
+    letter-spacing: .15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    padding: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.img-logo{
+    height: 40px;
+    width: 40px;
+    z-index: 3;
+    margin-top:18px;
+    margin-left: 15px;
+}
+
+.tools{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.tool{
+    color: white;
+    font-size: 25px;
+    margin-left: 60px;
+    font-family: 'Acme';
+}
+
+
+.main-div{
+   background-color: #00072D;
+   height: 665px;
+   width: 1400px;
+   margin-left: 60px;
+   padding-top: 70px;
+}
+
+.login-link{
+    display: flex;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abyssinica SIL');
+.heading{
+    font-size: 40px;
+    color: white;
+    font-family: 'Abyssinica SIL';
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding-top: 40px;
+    margin-left: 400px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.head{
+    color: white;
+    font-size: 20px;
+    font-family: 'Acme';
+    margin-left: 580px;
+    margin-top: -10px;
+}
+
+.backup{
+    margin-left: 5px;
+}
+
+.info{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.text{
+    color: white;
+    font-size: 15px;
+    font-family: 'Acme';
+    margin-bottom: 0;
+}
+
+.text-box{
+    margin-top: 5px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Bricolage Grotesque');
+.final{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 590px;
+    background-color: #A6E1FA;
+    color: black;
+    font-family: "Bricolage Grotesque";
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+
+
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+    .main-div {
+      width: 100%;
+      margin-left: 0;
+      padding: 100px 20px 50px 20px;
+      height: auto;
+      box-sizing: border-box;
+    }
+  
+    .heading {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .login-link {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .head {
+      margin: 0;
+      text-align: center;
+    }
+  
+    .info {
+      margin: 20px auto;
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .final {
+      margin-left: 0;
+      display: block;
+      margin: 30px auto 0 auto;
+    }
+    
+    .main-div{
+        height: 1350px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0 15px;
+      height: 60px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logo {
+      height: 60px;
+      width: auto;
+      align-items: center;
+    }
+  
+    .title {
+      font-size: 20px;
+      margin-top: 0;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  
+    .img-logo {
+      height: 35px;
+      width: 35px;
+      margin-top: 12px;
+      margin-left: 5px;
+    }
+  
+    .tools {
+      margin: 0;
+      margin-right: 30px;
+      margin-top: 10px;
+    }
+  
+    .tools a:nth-child(2),
+    .tools a:nth-child(3) {
+      display: none;
+    }
+  
+    .tool {
+      font-size: 18px;
+      margin-left: 0;
+    }
+  
+    .main-div {
+      padding-top: 80px;
+    }
+  
+    .heading {
+      font-size: 30px;
+      padding-top: 20px;
+    }
+    
+    .text-box {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .final {
+      font-size: 20px;
+      padding: 8px 25px;
+    }
+    .main-div{
+        height: 900px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 18px;
+    }
+  
+    .img-logo {
+      height: 30px;
+      width: 30px;
+      margin-top: 15px;
+    }
+  
+    .heading {
+      font-size: 24px;
+    }
+  
+    .head {
+      font-size: 16px;
+    }
+  
+    .text {
+      font-size: 14px;
+    }
+  
+    .text-box {
+      height: 28px;
+    }
+  
+    .final {
+      font-size: 18px;
+    }
+  }
+  
