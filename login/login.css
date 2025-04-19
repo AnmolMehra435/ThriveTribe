@@ -130,7 +130,7 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
-
+    cursor: pointer;
 
 }
 
@@ -277,4 +277,33 @@ body{
       font-size: 18px;
     }
   }
+
+  .or-text {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Acme';
+    margin-top: 25px;
+}
+
+.metamask-button {
+    font-size: 20px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F6851B; /* MetaMask Orange */
+    color: black;
+    font-family: 'Bricolage Grotesque';
+    border: none;
+    padding: 10px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.metamask-button:hover {
+    background-color: #e2761b;
+}
+
   
